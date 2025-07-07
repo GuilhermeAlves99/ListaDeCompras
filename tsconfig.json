@@ -1,6 +1,10 @@
 {
   "extends": "expo/tsconfig.base",
   "compilerOptions": {
-    "strict": true
+    "strict": true,
+    //criei uma referencia de onde é o nível da pasta que quero acessar primeiro
+    "paths": {
+      "@/*":["./src/*"]
+    }
   }
 }
